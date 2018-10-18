@@ -1,0 +1,30 @@
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+  }
+  
+  ul.navbar li {
+    display: inline-block;
+  }
+  ul.navbar li a {
+    display: block;
+    color: #46aaff;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  ul.navbar li a:hover:not(.active) {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  ul.navbar li a.active {
+    color: #0cca0c;
+    font-weight: bold;
+    background-color: white;
+  }
